@@ -1,0 +1,8 @@
+ by running add we did put the file into the staging area:
+
+Now .we can commit the changes made to the "readme.txt" file
+
+git commit and diff
+
+git status command is too vague and does not give enough information about the change, when we want to know exaclty what we changed not just which files were changed, we can use the git diff command. we'll probably use it most often to answer these to questions:
+what have we changed but not yet staged? and what have we staged that we are about to commit? although git status answers those questions very generally, git diff shows us the exact lines added and removed .
